@@ -1,3 +1,8 @@
 module.exports = function check(str, bracketsConfig) {
-  // your solution
+      
+if (str.match(bracketsConfig))
+{
+    return true;
+}
+else {return false;}
 }
